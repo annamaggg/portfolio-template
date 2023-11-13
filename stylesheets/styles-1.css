@@ -1,0 +1,159 @@
+/* this gets rid of the automatic margin applied to the body,
+so that content can fit the whole screen*/
+
+body {
+  margin: 0px; 
+  padding: 0px;
+  background-image: url('../images/blue-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation bar styles */
+
+.navbar {
+  width: 100%;
+  position: fixed;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(32, 39, 42);
+  padding: 0px 50px;
+}
+li {
+  float: left;
+}
+.right-elements {
+  float: right;
+}
+li a {
+  display: block;
+  text-align: center;
+  margin: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+li a:hover {
+  color: rgb(93, 127, 195);
+}
+
+/* about section styles */
+
+.section-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.about-section {
+  width: 50%;
+  background-color: rgb(236, 238, 245);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  border-radius: 45px;
+}
+.about-element {
+  text-align: center;
+}
+.profile-icon {
+  width: 200px;
+  height: auto;
+}
+
+/* work section styles */
+
+.work-section-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.work-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.work-section {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.all-projects {
+  display: flex;
+  justify-content: space-between;
+}
+.project{
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(229, 241, 245);
+  border-radius: 25px;
+}
+.proj-img {
+  width: 100%;
+  height: 220px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+h4 {
+  color: rgb(1, 8, 15);
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+.project p {
+  color: rgb(3, 16, 27);
+  font-size: 15px;
+  margin: 20px;
+  text-align: left;
+}
+
+/* contact section styles */
+
+.contact-section-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-icon {
+  width: 200px;
+  height: auto;
+  margin-right: 50px;
+}
+.contact-details a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(32, 39, 42);
+  border-radius: 20px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+.contact-details a:hover {
+  background-color: rgb(84, 112, 157);
+}
+.contact-details p {
+  padding-bottom: 20px;
+}
+
+/* footer styles */
+
+footer p {
+  text-align: center;
+  font-size: 15px;  
+  color: black;
+  padding: 10px;
+}
