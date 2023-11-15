@@ -14,3 +14,6 @@ Students can uncomment stylesheet imports in the head of index.html to see how t
 <div align="center">
   <img src="https://github.com/annamaggg/portfolio-template/blob/main/images/s2.png" width="861" alt="img"/>
 </div>
+<div align="center">
+  <img src="https://github.com/annamaggg/portfolio-template/blob/main/images/s3.png" width="861" alt="img"/>
+</div>
