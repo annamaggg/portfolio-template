@@ -38,4 +38,5 @@ $ open index.html
  
 ```
 <br/>
-<br/>
+
+Background images were created using Photoshop. Profile and project illustrations were sourced from <a href="https://www.freepik.com"><p>Freepik</p></a>.
